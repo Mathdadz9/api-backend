@@ -14,6 +14,7 @@ import { ProductsService } from './products.service';
 import { createProductDto } from './dto/create.produtct.dto';
 import { updateProductDto } from './dto/update.product.dto';
 import { ProductEntity } from './entities/product.entity';
+import { AuthGuard } from '@nestjs/passport';
 
 /**
  * O Controller é responsável por receber as requisições HTTP,
