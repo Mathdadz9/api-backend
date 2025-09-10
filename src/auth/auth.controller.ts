@@ -1,7 +1,7 @@
 // src/auth/auth.controller.ts
 import { Controller, Post, Body, UnauthorizedException } from '@nestjs/common';
 import { AuthService } from './auth.service';
-import { LoginDto } from './dto/login.dto'; // Importe o DTO de login
+import { LoginDto } from './dto/login.dto'; // <-- O DTO é importado aqui
 
 @Controller('auth')
 export class AuthController {

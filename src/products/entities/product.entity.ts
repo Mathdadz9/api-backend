@@ -1,5 +1,5 @@
 // src/products/entities/product.entity.ts
-import { UserEntity } from '../../users/entities/user.entity' // Importar UserEntity
+import { UserEntity } from '../../users/entities/user.entity'; // Importar UserEntity
 import { Entity, PrimaryGeneratedColumn, Column, CreateDateColumn, ManyToOne } from 'typeorm'; // Importar ManyToOne
 
 @Entity({ name: 'products' })
